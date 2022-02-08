@@ -10,9 +10,22 @@
     "darkGray": "#888888"
   },
   "ui": {
+    "base": {
+        "_05": "#050514",
+        "_10": "#0a0a29",
+        "_15": "#0f0f3d",
+        "_20": "#141452",
+        "_25": "#191966",
+        "_30": "#1f1f7a"
+    },
+    "gray": {
+        "_05": "0c0c0d",
+        "_75": "bcbcc2",
+        "_85": "d7d7db"
+    },
     "shadow": "#16161C",
-    "border": "#1A1C23",
-    "background": "#0d0d22",
+    "border": "#141452",
+    "background": "#050514",
     "backgroundAlt": "#232530",
     "accent": "#2E303E",
     "accentAlt": "#6C6F93",
@@ -23,8 +36,8 @@
     "negative": "#F43E5C",
     "warning": "#27D797",
     "modified": "#21BFC2",
-    "lightText": "#D5D8DA",
-    "darkText": "#06060C"
+    "lightText": "#d7d7db",
+    "darkText": "#0c0c0d"
   },
   "ansi": {
     "normal": {
