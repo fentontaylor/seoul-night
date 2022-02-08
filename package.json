@@ -17,5 +17,14 @@
                 "path": "./themes/seoul-night-color-theme.json"
             }
         ]
+    },
+    "scripts": {
+        "dev": "nodemon",
+        "build": "node scripts/build"
+    },
+    "dependencies": {
+        "fs-extra": "^10.0.0",
+        "mustache": "^4.2.0",
+        "nodemon": "^2.0.15"
     }
 }
