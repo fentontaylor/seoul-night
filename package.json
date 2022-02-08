@@ -1,0 +1,21 @@
+{
+    "name": "seoul-night",
+    "displayName": "Seoul Night",
+    "description": "Soft lights on a midnight background",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Seoul Night",
+                "uiTheme": "vs-dark",
+                "path": "./themes/seoul-night-color-theme.json"
+            }
+        ]
+    }
+}
