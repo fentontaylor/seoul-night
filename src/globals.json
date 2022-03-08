@@ -1,4 +1,34 @@
 {
+  "palette1": {
+    "punctutaion": "",
+    "green": {
+      "lightest": "#ebf9f7",
+      "light": "#c3eee6",
+      "main": "#7fdbca",
+      "dark": "#38c7ad"
+    },
+    "blue": {
+      "light": "#ccdcff",
+      "main": "#82aaff",
+      "grayish": "#a6b6d9"
+    },
+    "pink": {
+      "main": "#c792ea"
+    },
+    "yellow": {
+      "main": "#e1b07e"
+    },
+    "red": {
+      "main": "#932f6d"
+    },
+    "orange": {
+      "main": "#c97064"
+    },
+    "purple": {
+      "light": "#9577bb",
+      "main": "#63458a"
+    }
+  },
   "midnight": {
     "main": "#191966",
     "dark": "#141452",

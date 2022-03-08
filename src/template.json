@@ -1,5 +1,6 @@
 {
   "name": "{{ name }}",
+  "semanticHighlighting": true,
   "type": "dark",
   "colors": {
     "activityBar.background": "{{ midnight.darkest }}",
@@ -151,7 +152,7 @@
       "name": "Comments",
       "scope": "comment",
       "settings": {
-        "foreground": "{{ syntax.gray }}{{ alpha.medLow }}",
+        "foreground": "{{ gray.main }}",
         "fontStyle": "italic"
       }
     },
@@ -180,7 +181,7 @@
       "name": "Function names",
       "scope": "entity.name.function",
       "settings": {
-        "foreground": "{{ syntax.turquoise }}{{ alpha.high }}"
+        "foreground": "{{ palette1.purple.light }}"
       }
     },
     {
@@ -241,7 +242,7 @@
       "name": "Keywords",
       "scope": "keyword",
       "settings": {
-        "foreground": "{{ syntax.lavender }}{{ alpha.high }}",
+        "foreground": "{{ palette1.blue.main }}",
         "fontStyle": "{{ keywordStyle }}"
       }
     },
@@ -261,7 +262,7 @@
         "keyword.operator.delete"
       ],
       "settings": {
-        "foreground": "{{ syntax.lavender }}{{ alpha.high }}"
+        "foreground": "{{ palette1.purple.light }}"
       }
     },
     {
@@ -320,7 +321,7 @@
       "name": "Storage keywords",
       "scope": "storage",
       "settings": {
-        "foreground": "{{ syntax.lavender }}{{ alpha.high }}",
+        "foreground": "{{ palette1.blue.main }}",
         "fontStyle": "{{ keywordStyle }}"
       }
     },
@@ -328,7 +329,7 @@
       "name": "Strings",
       "scope": ["string.quoted", "string.template"],
       "settings": {
-        "foreground": "{{ syntax.darkGray }}{{ alpha.high }}"
+        "foreground": "{{ palette1.green.dark }}"
       }
     },
     {
@@ -403,39 +404,13 @@
       }
     },
     {
-      "name": "Tag brackets",
-      "scope": "punctuation.definition.tag",
+      "name": "Punctuation",
+      "scope": [
+        "meta.block",
+        "meta.brace.round"
+      ],
       "settings": {
-        "foreground": "{{ syntax.cranberry }}{{ alpha.highMed }}",
-        "fontStyle": "{{ tagStyle }}"
-      }
-    },
-    {
-      "name": "Key/value separators",
-      "scope": "punctuation.separator",
-      "settings": {
-        "foreground": "{{ syntax.gray }}"
-      }
-    },
-    {
-      "name": "Template expressions",
-      "scope": "punctuation.definition.template-expression",
-      "settings": {
-        "foreground": "{{ syntax.lavender }}{{ alpha.high }}"
-      }
-    },
-    {
-      "name": "Embedded section punctuation",
-      "scope": "punctuation.section.embedded",
-      "settings": {
-        "foreground": "{{ syntax.lavender }}{{ alpha.high }}"
-      }
-    },
-    {
-      "name": "Markup list punctuation",
-      "scope": "punctuation.definition.list",
-      "settings": {
-        "foreground": "{{ syntax.apricot }}{{ alpha.high }}"
+        "foreground": "{{ gray.medLight }}"
       }
     }
   ]
